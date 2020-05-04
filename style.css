@@ -6,6 +6,42 @@ body {
   padding-bottom: 16px;
 }
 
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.buyButton1 {
+  box-shadow: 0px 7px 10px -5px #353535;
+  background: linear-gradient(to top, #1a59b7 0%, #5194f7 100%);
+  border-radius: 20px;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+  color:#ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 50px;
+  text-decoration: none;
+}
+
+.buyButton1:hover {
+  box-shadow: 0px 7px 10px -5px #202020;
+  background: linear-gradient(to bottom, #3e59db 0%, #2282db 100%);
+}
+
+.buyButton1:active {
+  position: relative;
+  top: 2px;
+}
+
 .fixed-header {
 	background: -webkit-gradient(linear, center top, center bottom, from(#404040), to(#2A2A2A));
 	width: 100%;
@@ -38,7 +74,7 @@ body {
 }
 
 .card-bg-2 {
-  background: #285FB2;
+  background: -webkit-gradient(linear, center bottom, center top, from(#285FB2), to(#468cf3));
   width: auto;
   height: 50%;
   -webkit-border-radius: 8px;
