@@ -20,13 +20,13 @@ h3 {
 
 .buyButton1 {
   box-shadow: 0px 7px 10px -5px #353535;
-  background: linear-gradient(to top, #1a59b7 0%, #5194f7 100%);
+  background: linear-gradient(to top, #2675EB 50%, #51B8FE 100%);
   border-radius: 20px;
-  border: 2px solid #ffffff;
+  border: 2px solid #FAFAFA;
   cursor: pointer;
   color:#ffffff;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   padding: 20px 50px;
   text-decoration: none;
@@ -34,10 +34,34 @@ h3 {
 
 .buyButton1:hover {
   box-shadow: 0px 7px 10px -5px #202020;
-  background: linear-gradient(to bottom, #3e59db 0%, #2282db 100%);
+  background: linear-gradient(to top, #2675EB 20%, #51B8FE 100%);
 }
 
 .buyButton1:active {
+  position: relative;
+  top: 2px;
+}
+
+.buyButton2 {
+  box-shadow: 0px 7px 10px -5px #353535;
+  background: linear-gradient(to top, #365BFE 50%, #C841FE 100%);
+  border-radius: 20px;
+  border: 2px solid #FAFAFA;
+  cursor: pointer;
+  color:#ffffff;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px 50px;
+  text-decoration: none;
+}
+
+.buyButton2:hover {
+  box-shadow: 0px 7px 10px -5px #202020;
+  background: linear-gradient(to top, #365BFE 20%, #C841FE 100%);
+}
+
+.buyButton2:active {
   position: relative;
   top: 2px;
 }
@@ -57,7 +81,7 @@ h3 {
 }
 
 .card-bg-1 {
-	background: #403AAA;
+	background: -webkit-gradient(linear, center bottom, center top, from(#403AAA), to(#3495FE));
 	width: auto;
 	height: 50%;
 	-webkit-border-radius: 8px;
@@ -74,7 +98,24 @@ h3 {
 }
 
 .card-bg-2 {
-  background: -webkit-gradient(linear, center bottom, center top, from(#285FB2), to(#468cf3));
+  background: -webkit-gradient(linear, center bottom, center top, from(#285BFE), to(#53A8FE));
+  width: auto;
+  height: 50%;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  margin-left: 64px;
+  margin-right: 64px;
+  padding: 32px;
+  -webkit-box-shadow: 5px 5px 35px -8px rgba(0,0,0,0.30);
+  -moz-box-shadow: 5px 5px 35px -8px rgba(0,0,0,0.30);
+  box-shadow: 5px 5px 35px -8px rgba(0,0,0,0.30);
+}
+
+.card-bg-3 {
+  background: -webkit-gradient(linear, center bottom, center top, from(#3744FE), to(#C841FE));
   width: auto;
   height: 50%;
   -webkit-border-radius: 8px;
@@ -97,6 +138,12 @@ h3 {
 }
 
 .card-bg-2:hover {
+  -webkit-box-shadow: 10px 10px 35px -4px rgba(0,0,0,0.50);
+  -moz-box-shadow: 10px 10px 35px -4px rgba(0,0,0,0.50);
+  box-shadow: 10px 10px 35px -4px rgba(0,0,0,0.50);
+}
+
+.card-bg-3:hover {
   -webkit-box-shadow: 10px 10px 35px -4px rgba(0,0,0,0.50);
   -moz-box-shadow: 10px 10px 35px -4px rgba(0,0,0,0.50);
   box-shadow: 10px 10px 35px -4px rgba(0,0,0,0.50);
